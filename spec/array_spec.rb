@@ -3,9 +3,11 @@ require_relative '../editing_arrays.rb'
 require 'colorize'
 
 rainbow_colors = [
-  "yellow",
-  "default",
-  "light_cyan",
+  "red"
+  "light_red"
+  "light_yellow",
+  "green"
+  "blue",
 ]
 
 converted_rainbow = rainbow_colors.map {|color| color.to_sym}
